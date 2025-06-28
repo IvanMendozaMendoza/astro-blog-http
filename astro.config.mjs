@@ -13,9 +13,4 @@ export default defineConfig({
   site: 'https://example.com',
   integrations: [mdx(), sitemap(), db()],
   adapter: cloudflare(),
-  vite: {
-    define: {
-      module: 'undefined'
-    }
-  }
 });
